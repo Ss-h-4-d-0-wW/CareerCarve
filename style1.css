@@ -1,0 +1,362 @@
+html, body {
+    min-height: 100%;
+}
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 32px;
+position: absolute;
+width: 1123px;
+height: 743px;
+left: 50px;
+top: 58px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+  /* position: absolute; */
+  left: 155px;
+  top: 58px;
+}
+
+.main-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #000000;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 656px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.sec2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.sec1-text:nth-child() {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: #000000;
+  flex: none;
+  flex-grow: 0;
+}
+
+.save-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 210px;
+  gap: 10px;
+
+  width: 429px;
+  height: 52px;
+
+  background: #8a4893;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.save-btn-text {
+  /* Button */
+
+  width: 116px;
+  height: 24px;
+
+  /* Body/Body Large - Roboto 16/24 . +0.5 */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.5px;
+
+  /* Neutral White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.info-icon{
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.info-icon:hover{
+  border:none;
+  background-color: transparent;
+}
+.pencil-icon
+{
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.sec1-text
+{ 
+  text-decoration: none; }
+.sec1-text:hover { 
+  text-decoration: underline;
+}
+.menu-icon{
+  border: none;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  transition: all ease-in-out 0.2s;
+  cursor: pointer;
+}
+.menu-icon:hover{
+  border: none;
+  background-color: transparent;
+}
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 354px;
+    height: 793px;
+    left: 37px;
+    top: 78px;
+  }
+  .main-text {
+    width: 354px;
+    height: 40px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    /* identical to box height, or 167% */
+
+    color: #000000;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 354px;
+    height: 637px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 354px;
+    height: 35px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .sec1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 193px;
+    height: 24px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .sec2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 90px;
+    height: 35px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .save-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 210px;
+    gap: 10px;
+
+    width: 354px;
+    height: 52px;
+
+    background: #8a4893;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  .save-btn-text {
+    width: 116px;
+    height: 24px;
+
+    /* Body/Body Large - Roboto 16/24 . +0.5 */
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.5px;
+
+    /* Neutral White */
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .switch{
+    position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* M3/sys/dark/primary
+
+token=md.sys.color.primary
+
+primary / on-primary
+
+Regular text:
+Level AA - ✅ Pass
+Level AAA - ✅ Pass
+
+Large text:
+Level AA - ✅ Pass
+Level AAA - ✅ Pass
+
+Icons:
+Level AA - ✅ Pass
+*/
+background: #D0BCFF;
+border-radius: 75px;
+  }
+}

@@ -1,0 +1,749 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Your Section</title>
+    <link rel="stylesheet" href="style1.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"></script>
+          <script>
+$(function () {
+  $(".wrapper").sortable();
+  $(".menu-icon").draggable({
+    connectToSortable: ".wrapper",
+    helper: "clone",
+    revert: "invalid",
+  });
+  $(".sec1").disableSelection();
+});    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-text">Select your section</div>
+      <div class="wrapper">
+        <div class="list">
+          <div class="sec1">
+            <button class="menu-icon"><img src="Menu.png" <img draggable="true"></button>
+            <button class="info-icon" title="A brief description of your qualifications, experience and accomplishments"><img src="i.png" alt="info-icon"></button> 
+            <p class="sec1-text" contentEditable="true">Profile Summary</p>
+            </div>
+          <div class="sec2">
+            <button class="pencil-icon"> <img src="Pen.png"><contentEditable="true"></button>
+                       <style>
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8B8B8B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D0BCFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 75px;
+}
+
+.slider.round:before {
+  border-radius: 75px;
+}
+</style>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+          </div>
+        </div>
+        <object class="line-icon" data="Line.svg"></object>
+        <div class="list">
+          <div class="sec1">
+            <button class="menu-icon"><img src="Menu.png"></button>
+            <button class="info-icon" title="Activities that are recognized by a school or university, that fall beyond the domain of academic curriculum"><img src="i.png" alt="info-icon"></button>  
+            <p class="sec1-text" contentEditable="true">Academic and Cocurricular Achievement</p>
+          </div>
+          <div class="sec2">
+            <button class="pencil-icon"> <img src="Pen.png"><contentEditable="true"></button>
+            <style>
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8B8B8B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D0BCFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  background-color: #381E72;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 75px;
+}
+
+.slider.round:before {
+  border-radius: 75px;
+}
+</style>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+          </div>
+        </div>
+         <object class="line-icon" data="Line.svg"></object>
+        <div class="list">
+          <div class="sec1">
+            <button class="menu-icon"><img src="Menu.png"></button>
+            <button class="info-icon" title="Internship experience can contribute to and support your overall academic achievement or professional growth"><img src="i.png" alt="info-icon"></button>  
+            <p class="sec1-text" contentEditable="true">Summer Internship Experience</p>        
+          </div>
+          <div class="sec2">
+           <button class="pencil-icon"> <img src="Pen.png"><contentEditable="true"></button>
+             <style>
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8B8B8B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D0BCFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  background-color: #381E72;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 75px;
+}
+
+.slider.round:before {
+  border-radius: 75px;
+}
+</style>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+          </div>
+        </div>
+         <object class="line-icon" data="Line.svg"></object>
+        <div class="list">
+          <div class="sec1">
+            <button class="menu-icon"><img src="Menu.png"></button>
+<button class="info-icon" title="A detailed information of your past work experience"><img src="i.png" alt="info-icon"></button>  
+            <p class="sec1-text" contentEditable="true">Work Experience</p>
+          </div>
+          <div class="sec2">
+            <button class="pencil-icon"> <img src="Pen.png"><contentEditable="true"></button>
+             <style>
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8B8B8B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D0BCFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  background-color: #381E72;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 75px;
+}
+
+.slider.round:before {
+  border-radius: 75px;
+}
+</style>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+          </div>
+        </div>
+         <object class="line-icon" data="Line.svg"></object>
+        <div class="list">
+          <div class="sec1">
+            <button class="menu-icon"><img src="Menu.png"></button>
+<button class="info-icon" title="Provide specific details about the project's tasks, your role and quantifiable results"><img src="i.png" alt="info-icon"></button> 
+            <p class="sec1-text" contentEditable="true">Projects</p>
+          </div>
+          <div class="sec2">
+            <button class="pencil-icon"> <img src="Pen.png"><contentEditable="true"></button>
+             <style>
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8B8B8B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D0BCFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  background-color: #381E72;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 75px;
+}
+
+.slider.round:before {
+  border-radius: 75px;
+}
+</style>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+          </div>
+        </div>
+         <object class="line-icon" data="Line.svg"></object>
+        <div class="list">
+          <div class="sec1">
+            <button class="menu-icon"><img src="Menu.png"></button>
+<button class="info-icon" title="Proof that you have the competence to do something."><img src="i.png" alt="info-icon"></button> 
+            <p class="sec1-text" contentEditable="true">Certifications</p>
+          </div>
+          <div class="sec2">
+            <button class="pencil-icon"> <img src="Pen.png"><contentEditable="true"></button>
+             <style>
+ .switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8B8B8B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D0BCFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  background-color: #381E72;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 75px;
+}
+
+.slider.round:before {
+  border-radius: 75px;
+}
+</style>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+          </div>
+        </div>
+         <object class="line-icon" data="Line.svg"></object>
+        <div class="list">
+          <div class="sec1">
+            <button class="menu-icon"><img src="Menu.png"></button>
+            <button class="info-icon" title="Leadership skills you possess."><img src="i.png" alt="info-icon"></button> 
+            <p class="sec1-text" contentEditable="true">Leadership Positions</p>
+          </div>
+          <div class="sec2">
+            <button class="pencil-icon"> <img src="Pen.png"><contentEditable="true"></button>
+             <style>
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8B8B8B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D0BCFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  background-color: #381E72;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 75px;
+}
+
+.slider.round:before {
+  border-radius: 75px;
+}
+</style>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+          </div>
+        </div>
+         <object class="line-icon" data="Line.svg"></object>
+        <div class="list">
+          <div class="sec1">
+            <button class="menu-icon"><img src="Menu.png"></button>
+<button class="info-icon" title="any activities you took part in outside of your main study or work time."><img src="i.png" alt="info-icon"></button> 
+            <p class="sec1-text" contentEditable="true">Extracurricular</p>
+          </div>
+          <div class="sec2">
+            <button class="pencil-icon"> <img src="Pen.png"><contentEditable="true"></button>
+             <style>
+  .switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8B8B8B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D0BCFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  background-color: #381E72;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 75px;
+}
+
+.slider.round:before {
+  border-radius: 75px;
+}
+</style>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+          </div>
+        </div>
+         <object class="line-icon" data="Line.svg"></object>
+        <div class="list">
+          <div class="sec1">
+            <button class="menu-icon"><img src="Menu.png"></button>
+<button class="info-icon" title="Highlight your academic qualifications and achievements.."><img src="i.png" alt="info-icon"></button> 
+            <p class="sec1-text" contentEditable="true">Education</p>
+          </div>
+          <div class="sec2">
+            <button class="pencil-icon"> <img src="Pen.png"><contentEditable="true"></button>
+             <style>
+ .switch {
+  position: relative;
+  display: inline-block;
+  width: 39px;
+  height: 24px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 0px;
+  bottom: 0px;
+  background-color: #8B8B8B;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #D0BCFF;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  background-color: #381E72;
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 75px;
+}
+
+.slider.round:before {
+  border-radius: 75px;
+}
+</style>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+          </div>
+        </div>
+               <object class="line-icon" data="Line.svg"></object>
+      </div>
+      <button class="save-btn" type="submit">
+        <p class="save-btn-text">Save and Next</p>
+      </button>
+    </div>
+  </body>
+</html>
